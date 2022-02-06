@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Űrlap+position</title>
+        <link rel="stylesheet" href="szerkezet.css" />
+        <link rel="stylesheet" href="urlap.css" />
+        <link rel="stylesheet" href="position.css" />
+    </head>
+    <body>
+        <main>
+            <header><h1>Position</h1></header>
+            <nav>
+                <ul class="kulso">
+                    <li><a href="#">menü</a></li>
+                    <li class="dropdown">
+                        <a href="#">menü</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">almenü</a></li>
+                            <li><a href="#">almenü</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">menü</a></li>
+                </ul>
+            </nav>
+            <section class="keret">
+                <div id="ablak">
+                    <span class="bezar" onclick="bezar()">X</span>
+                    <form>
+                        <fieldset>
+                            <legend>Tetszik a Position tulajdonság?</legend>
+                            <label for="igen">Igen </label>
+                            <input type="radio" name="kerdes" id="igen" />
+                            <label for="nem">Nem </label>
+                            <input type="radio" name="kerdes" id="nem" />
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            <section class="kep">
+                <img
+                    src="https://blogger.googleusercontent.com/img/a/AVvXsEjWT0W9TZR50OnvQi7dIKark3EtXbv6I7uaG6alhu-GjZGYnoix-jTY6Xw4sQwLjRDa2AP0ZGGY0fKfq-cxF0y4w18SUKhpaHamHcIeWlzcjceXn8_X9u850EFbiQbNiQu_wf3kcW7x3zp4e1k7CEiV6gAXOWlQwzJeqelz01A30CWwOzlL0Mmff2xO=w640-h426"
+                    alt="Téli erdő"
+                />
+            </section>
+            <footer></footer>
+        </main>
+    </body>
+    <script>
+        function bezar() {
+            console.log("hahó");
+            document.getElementById("ablak").style.display = "none";
+        }
+    </script>
+</html>

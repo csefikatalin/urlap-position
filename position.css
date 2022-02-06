@@ -1,0 +1,51 @@
+main {
+    position: relative;
+}
+
+.keret {
+    position: absolute;
+    left: 220px;
+    top: 300px;
+}
+
+/*X helyzete*/
+#ablak {
+    position: relative;
+}
+
+.bezar {
+    position: absolute;
+
+    right: 18px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: rgb(171, 179, 179);
+    color: rgb(177, 38, 38);
+    font-size: 15pt;
+    cursor: grab;
+}
+
+.bezar:hover .ablak {
+    background: blue;
+    color: red;
+    display: none;
+}
+
+/*legördülő menü*/
+
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown-content {
+    position: absolute;
+}
+
+/* menü fixen marad görgetéskor*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header {
+    margin-top: 100px;
+}
