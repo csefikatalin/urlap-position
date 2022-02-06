@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+.galeria {
+    width: 100%;
+}
 .kep {
     width: 100%;
     background: rgb(246, 248, 248);
@@ -10,7 +13,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
-.kep img {
+.galeria img {
     border-radius: 10px;
     width: 100%;
 }
