@@ -11,6 +11,7 @@ main {
 /*X helyzete*/
 #ablak {
     position: relative;
+    z-index: 1000;
 }
 
 .bezar {
@@ -48,4 +49,21 @@ nav {
 }
 header {
     margin-top: 100px;
+}
+
+/*galéria kialakítása*/
+.megjelenokep {
+    display: none;
+}
+.kiskep:hover .megjelenokep {
+    display: block;
+}
+.kep {
+    position: relative;
+}
+.megjelenokep {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 200px;
 }

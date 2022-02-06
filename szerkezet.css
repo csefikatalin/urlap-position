@@ -5,12 +5,14 @@
     width: 100%;
     background: rgb(246, 248, 248);
     padding: 15px;
-
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 .kep img {
-    width: 100%;
     border-radius: 10px;
+    width: 100%;
 }
 
 main {
